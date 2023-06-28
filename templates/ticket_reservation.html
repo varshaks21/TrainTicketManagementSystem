@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Ticket booking</title>
+   </head>
+<body>
+    <h1>Ticket Reservation System</h1>
+    <div>
+        <form action="/ticket_reserve" method="POST">
+            <label for="ticket_id">ticket_id</label>
+            <input type="text" id="ticket_id" name="ticket_id" required><br><br>
+
+            <label for="origin">origin</label>
+            <input type="text" id="origin" name="origin" required><br><br>
+
+            <label for="destination">destination</label>
+            <input type="text" id="destination" name="destination" required><br><br>
+
+            <label for="date">date</label>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <button type="submit">Book Ticket</button><br><br>
+        </form>
+           <a href="/update_ticket">Want to update? click here</a><br><br>
+        <a href="/delete_ticket">Want to delete? click here</a>
+    </div>
+</body>
+</html>
+
+
+
+
